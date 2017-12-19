@@ -14,10 +14,16 @@ body{
     color: #68b688;
 }
 
+.txtcontato {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8126a5;
+}
+
 #tarja {
     position: relative;
     background-color: #8126a5;
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
@@ -38,6 +44,40 @@ body{
     position: relative;
     margin-top: 20px;
 }
+
+.contatos_footer{
+    border-top: solid 2px #68b688;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dialog {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dialog_logo {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.dialog_txt {
+    position: absolute;
+    z-index: 2;
+    padding: 49px;
+    text-align: left;
+    font-size: 22px;
+    color: #ffffff;
+    top: 0px;
+}
+
 
 
 
@@ -130,4 +170,73 @@ body{
 }
 :-moz-placeholder { /* Firefox 18- */
     color:#8126a5;
+}
+
+/* Iphone 6- */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+    .dialog_txt {
+        padding: 45px;
+        font-size: 17px;
+    }
+
+}
+
+/* Iphone 6Plus- */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    .dialog_txt {
+        padding: 45px;
+        font-size: 15px;
+    }
+}
+
+/* Iphone 4S- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    .dialog_txt {
+        padding: 33px;
+        font-size: 13px;
+    }
+}
+
+/* Iphone 5- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .dialog_txt {
+        padding: 33px;
+        font-size: 13px;
+    }
+
+}
+
+/* Ipad Horizontal- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .dialog_txt {
+        padding: 43px;
+        font-size: 22px;
+    }
+}
+
+/* Ipad Vertical- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) { /
+    .dialog_txt {
+        padding: 37px;
+        font-size: 15px;
+    }
 }
