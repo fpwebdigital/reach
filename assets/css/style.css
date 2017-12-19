@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.magenta{
+    color: #8126a5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.verde {
+    color: #68b688;
+}
+
+#tarja {
+    position: relative;
+    background-color: #8126a5;
+    height: 500px;
+    width: 100%;
+}
+
+#cont {
+    position: relative;
+    background-color: #2b542c;
+    height: 200px;
+    width: 100%;
+}
+#cont2 {
+    position: relative;
+    background-color: #c0c0c0;
+    height: 200px;
+    width: 100%;
+}
+
+.contato{
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+.input_site{
+    width:100%;
+    height: 54px;
+    color:#8126a5;
+    font-size:18px;
+    background-color:#ffffff;
+    border: solid #68b688;
+    outline: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+    padding-left: 10px;
+}
+
+.input_site:hover{
+    width:100%;
+    height: 54px;
+    color:#68b688;
+    font-size:18px;
+    background-color:#ffffff;
+    border: solid #8126a5;
+    outline: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+    padding-left: 10px;
+}
+
+
+.input_site_msg{
+    width:100%;
+    height: 140px;
+    color:#8126a5;
+    font-size:18px;
+    background-color:#ffffff;
+    border: solid #68b688;
+    outline: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+    padding-left: 10px;
+}
+
+.input_site_msg:hover{
+    width:100%;
+    height: 140px;
+    color:#68b688;
+    font-size:18px;
+    background-color:#ffffff;
+    border: solid #8126a5;
+    outline: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+    padding-left: 10px;
+}
+
+
+.btn_enviar {
+    width: 100%;
+    background: #8126a5;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: none;
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid 1px #FFFFFF;
+}
+
+.btn_enviar:hover {
+    color: #ffffff !important;
+    background: #68b688;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid 1px #FFFFFF;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#8126a5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color:#8126a5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color:#8126a5;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color:#8126a5;
+}
